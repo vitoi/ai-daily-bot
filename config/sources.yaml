@@ -1,0 +1,7 @@
+rss:
+  - https://feeds.feedburner.com/TechCrunch/artificial-intelligence
+  - https://www.theverge.com/rss/ai/index.xml
+  - https://openai.com/news/rss.xml
+custom_urls:
+  - https://ai.google/discover/
+  - https://huggingface.co/blog

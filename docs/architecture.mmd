@@ -1,0 +1,6 @@
+flowchart TD
+A[Cron / launchd Scheduler] --> B[Shell Script]
+B --> C[OpenClaw Agent]
+C --> D[LLM Summarization]
+D --> E[telegram_send Tool]
+E --> F[Telegram Bot]

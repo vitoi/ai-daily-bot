@@ -1,3 +1,8 @@
-Architecture
+# Architecture
 
-cron -> script -> openclaw agent -> telegram_send -> telegram
+Cron / launchd Scheduler
+→ Shell Script
+→ OpenClaw Agent
+→ LLM Summarization
+→ telegram_send
+→ Telegram Bot

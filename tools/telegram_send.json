@@ -1,11 +1,14 @@
 {
-"name":"telegram_send",
-"description":"Send message to Telegram",
-"parameters":{
-"type":"object",
-"properties":{
-"text":{"type":"string"}
-},
-"required":["text"]
-}
+  "name": "telegram_send",
+  "description": "Send message to Telegram",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "description": "Telegram message body"
+      }
+    },
+    "required": ["text"]
+  }
 }
